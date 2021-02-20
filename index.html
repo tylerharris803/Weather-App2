@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css" />
+  <title>Weather App</title>
+</head>
+
+<body>
+  <ul class="nav justify-content-center">
+    <li class="nav-item">
+      <a class="nav-link menu-font">Current & Future Weather Forecast</a>
+    </li>
+  </ul>
+
+
+  <div class="container search">
+    <form>
+      <label>Enter a U.S. city</label>
+      <input id="weatherInput" type="text"></input><br />
+      <input id="weatherSubmit" type="submit" value="Submit"></input>
+    </form>
+  </div>
+
+<div class="container center">
+  <div class="container main">
+  <div id="weatherResults">
+  </div>
+  </div>
+
+  <div id="forecastResults">
+  </div>
+</div>
+
+<div class='footer'>
+  <div class='footer-item footer-one'></div>
+  <div class='footer-item footer-two'>
+     <p class='footer-text'>Github repository: </p>
+      <p class= 'footer-text'> https://github.com/BYU-CS-260-Winter-2021/lab-2-weather-app-tylerharris803 --- Click <a href='https://github.com/BYU-CS-260-Winter-2021/lab-2-weather-app-tylerharris803'>here</a> to go to the Github repository.</p>
+  </div>
+  <div class='footer-item footer-three'></div>
+</div>
+
+  <script src="https://momentjs.com/downloads/moment.min.js"></script>
+  <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>
